@@ -1,0 +1,21 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Hannah Wynn Jones",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1"
+  }
+}
